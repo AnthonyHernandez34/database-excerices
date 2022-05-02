@@ -1,4 +1,6 @@
 USE codeup_test_db;
+
+drop table if exists albums;
 create table if not exists albums
 (
     id INT UNSIGNED NOT NULL AUTO_INCREMENT primary key ,
